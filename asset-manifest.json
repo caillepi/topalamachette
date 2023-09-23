@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/topalamachette/static/css/main.073c9b0a.css",
-    "main.js": "/topalamachette/static/js/main.c4384254.js",
+    "main.css": "/topalamachette/static/css/main.1c4c6c50.css",
+    "main.js": "/topalamachette/static/js/main.aba12e21.js",
     "static/js/787.a46cb846.chunk.js": "/topalamachette/static/js/787.a46cb846.chunk.js",
-    "static/media/logo.svg": "/topalamachette/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/post1_1.jpg": "/topalamachette/static/media/post1_1.861048bc665afe4da565.jpg",
+    "static/media/post1_2.jpg": "/topalamachette/static/media/post1_2.83dead8472074c264efa.jpg",
+    "static/media/LilyScriptOne-Regular.ttf": "/topalamachette/static/media/LilyScriptOne-Regular.0cc6fdfbc5921e8c747b.ttf",
     "index.html": "/topalamachette/index.html",
-    "main.073c9b0a.css.map": "/topalamachette/static/css/main.073c9b0a.css.map",
-    "main.c4384254.js.map": "/topalamachette/static/js/main.c4384254.js.map",
+    "main.1c4c6c50.css.map": "/topalamachette/static/css/main.1c4c6c50.css.map",
+    "main.aba12e21.js.map": "/topalamachette/static/js/main.aba12e21.js.map",
     "787.a46cb846.chunk.js.map": "/topalamachette/static/js/787.a46cb846.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.c4384254.js"
+    "static/css/main.1c4c6c50.css",
+    "static/js/main.aba12e21.js"
   ]
 }
