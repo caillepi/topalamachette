@@ -1,0 +1,125 @@
+.FullPost {
+    --bs-gutter-x: 0 !important;
+}
+
+.PostTitle {
+    text-align: left;
+    padding: 15px 0 0 30px;
+    text-transform: capitalize;
+    font-family: lilyScriptOneFont;
+    font-size: 3ch;
+    border-bottom: solid 3px rgb(140, 168, 158);
+}
+
+.FullPostTitle {
+    text-align: center;
+    text-transform: capitalize;
+    font-family: lilyScriptOneFont;
+    font-size: 3ch;
+}
+
+.PostTitle span {
+    color: black;
+}
+
+.PostDate {
+    margin-right: 25px;
+}
+
+.PostDate img {
+    max-width: 18px;
+    margin-bottom: 4px;
+    margin-right: 5px;
+}
+
+.PostLocation img {
+    max-width: 15px;
+    margin-bottom: 6px;
+    margin-right: 5px;
+}
+
+.PostInformationContainerContainer {
+    padding: 0;
+    margin: 0;
+}
+
+.PostInformation {
+    padding: 2px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.PostDate, .PostLocation {
+    text-align: left;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.PostImage {
+    height: 250px;
+    background-color: grey;
+}
+
+.PostText {
+    text-align: left;
+    font-size: 2ch;
+    margin-top: 10px;
+
+    --bs-gutter-x: 0 !important;
+}
+
+.PostButtonRow {
+    display: flex;
+    justify-content: right;
+}
+
+.PostButton {
+    display: flex;
+    justify-content: right;
+}
+
+.PostButton button {
+    background-color: rgb(140, 168, 158);
+    border: none;
+    font-size: 1em;
+    padding: 10px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.PostButton img {
+    transform: rotate(90deg);
+    height: 10px;
+    margin-left: 7px;
+}
+
+#PostCategory {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2ch;
+    padding-bottom: 10px;
+    border-bottom: solid 3px rgb(140, 168, 158);
+}
+
+.PostPicCard img {
+    width: 100%;
+}
+
+.PostBackButton button {
+    background-color: rgb(140, 168, 158);
+    border: none;
+    font-size: 1em;
+    padding: 10px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.PostBackButton img {
+    transform: rotate(270deg);
+    height: 10px;
+    margin-right: 7px;
+    margin-bottom: 3px;
+}

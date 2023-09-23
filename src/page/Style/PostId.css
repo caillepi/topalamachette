@@ -1,0 +1,46 @@
+@font-face {
+    font-family: lilyScriptOneFont;
+    src: url(../../_font/LilyScriptOne-Regular.ttf);
+}
+
+.carousel {
+    max-width: 80%;
+}
+
+#PostTitle {
+    font-family: lilyScriptOneFont;
+    font-size: 3ch;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.FullPostPicture {
+    margin: auto;
+}
+
+.FullPostPicture img {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.FullPostPicture span {
+    color: black;
+    font-size: 2ch;
+    line-break: auto;
+}
+
+.PostPicture {
+    margin: auto;
+    width: 55%;
+}
+
+.PostPicture img {
+    width: 100%;
+}
+
+.PostPictureDescription {
+    font-size: 2ch;
+    font-weight: 500;
+    display: flex;  
+    justify-content: left;
+}

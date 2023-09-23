@@ -1,0 +1,42 @@
+@font-face {
+    font-family: lilyScriptOneFont;
+    src: url(../../_font/LilyScriptOne-Regular.ttf);
+}
+
+.NavBar {
+    background-color: rgb(140, 168, 158);
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.navContainer{
+    --bs-gutter-x: 0 !important;
+}
+
+.navContainer .row {
+    display: flex;
+    justify-content: center;
+    --bs-gutter-x: 0 !important;
+}
+
+.navBarCol {
+    display: flex;
+    justify-content: left;
+    --bs-gutter-x: 0 !important;
+}
+
+.navBarCol a, .navBarCol a:hover {
+    color: white;
+    text-transform: capitalize;
+    font-size: 4ch;
+    line-height: 50px;
+}
+
+.navbar-brand {
+    
+    font-weight: 200;
+    font-family: lilyScriptOneFont;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-style: italic;
+}
