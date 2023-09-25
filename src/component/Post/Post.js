@@ -7,8 +7,10 @@ import LOCATION from "../../_img/location.png"
 import CHEVRON from "../../_img/chevron.png"
 import "./Post.css"
 import "../../page/Style/PostId.css"
+import MapLayer from '../MapLayer/MapLayer';
+import post1 from '../../_posts/post1';
 
-const Post = ({ card, uid }) => {
+const Post = ({ card, uid, map }) => {
     let navigate = useNavigate();
     let firstCat = true;
 
@@ -51,7 +53,7 @@ const Post = ({ card, uid }) => {
                         { postContentService["post" + uid].picCard }
                     </Col>
                 </Row>
-                <Row className = 'PostText'>
+                <Row className = 'PostText col-11'>
                     <Col>
                         { postContentService["post" + uid].description }   
                     </Col>
@@ -87,13 +89,25 @@ const Post = ({ card, uid }) => {
                 <div id = "PostCategory">
                     { postContentService["post" + uid2].category.map((cat) => {
                         return (
-                            <span>
+                            <span key = { cat }>
                                 {cat} { firstCat && " - " }
                                 { firstCat = false }
                             </span>
                         )
                     }) }
                 </div>
+
+                <Row>
+                    <Col className = 'FullPostMap'>
+                        {
+                            map &&
+                            <MapLayer   mapCenter = { postContentService["post" + uid2].mapInfo.center } 
+                                        zoom = { postContentService["post" + uid2].mapInfo.zoom }
+                                        markersProps = { postContentService["post" + uid2].mapMarkers }/>
+                        }
+                        
+                    </Col>
+                </Row>
 
                 <div className = 'PostText'>
                     { postContentService["post" + uid2].text }

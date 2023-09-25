@@ -9,9 +9,6 @@
 }
 
 .PostListPostPart {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     margin: auto;
     margin-bottom: 50px;
 

@@ -11,7 +11,7 @@ const MyRouter = () => {
             <Route path = "topalamachette" element = { <Layout /> }>
                 <Route path = "" element = { <PostList /> } />
                 <Route path = "posts">
-                    <Route path = ":uid" element = { <Post card = { false } /> } />
+                    <Route path = ":uid" element = { <Post card = { false } map = { true } /> } />
                     <Route path = "" element = { <ErrorPageNotFound /> } />
                     <Route path = "*" element = { <ErrorPageNotFound /> } />
                 </Route>

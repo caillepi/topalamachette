@@ -1,0 +1,9 @@
+.leaflet-container {
+    height: 50ch;
+}
+
+.leaftletPopupLink {
+    background-color: transparent;
+    line-height: 30px;
+    border: none;
+}
