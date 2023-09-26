@@ -4,7 +4,7 @@ import post_1 from "../_img/post1Img/post1_2.jpg"
 let post_title = "Le paradis sur terre : l'île des Pins"
 let post_text =
     <div>
-        <div className = 'FullPostPicture col-sm-12'>
+        <div className = 'FullPostPicture'>
             <img src = { post_1 } alt = "SECOND SLIDE" />
             <span className = 'PostPictureDescription'>On mange bien ici dis donc, deuxième carbonnade</span>
         </div>

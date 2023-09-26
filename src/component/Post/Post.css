@@ -64,6 +64,7 @@
     text-align: left;
     font-size: 2ch;
     margin-top: 10px;
+    margin: auto;
 
     --bs-gutter-x: 0 !important;
 }
@@ -123,4 +124,8 @@
     height: 10px;
     margin-right: 7px;
     margin-bottom: 3px;
+}
+
+.FullPostMap {
+    margin: auto;
 }

@@ -8,7 +8,6 @@ import CHEVRON from "../../_img/chevron.png"
 import "./Post.css"
 import "../../page/Style/PostId.css"
 import MapLayer from '../MapLayer/MapLayer';
-import post1 from '../../_posts/post1';
 
 const Post = ({ card, uid, map }) => {
     let navigate = useNavigate();
@@ -98,7 +97,7 @@ const Post = ({ card, uid, map }) => {
                 </div>
 
                 <Row>
-                    <Col className = 'FullPostMap'>
+                    <Col className = 'FullPostMap col-11 col-md-12'>
                         {
                             map &&
                             <MapLayer   mapCenter = { postContentService["post" + uid2].mapInfo.center } 
@@ -109,7 +108,7 @@ const Post = ({ card, uid, map }) => {
                     </Col>
                 </Row>
 
-                <div className = 'PostText'>
+                <div className = 'PostText col-11 col-md-12'>
                     { postContentService["post" + uid2].text }
                 </div>
             </Container>
