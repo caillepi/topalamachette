@@ -3,8 +3,9 @@ import PIN from "../_img/pin.png";
 import PIN_2 from "../_img/pin2.png";
 
 const markers = [
+    /*
     {
-        'id': 0, /* Point in Noumea */ 
+        'id': 0,
         'center': [-22.271072, 166.441650]
     },
     {
@@ -15,11 +16,11 @@ const markers = [
         'id': 2,
         'center': [-22.6154562, 167.480045]
     }
+    */
 ]
 
 // const mapCenter = [-22.271072, 166.441650]
 const mapCenter = [-21.483504, 165.938111]
-
 
 const mapZoom = 7
 

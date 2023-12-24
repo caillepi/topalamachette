@@ -16,11 +16,11 @@ const Post = ({ card, uid, map }) => {
     let uid2 = useParams().uid
 
     let buttonOnClickHandler = () => {
-        navigate("./posts/" + uid, { replace: false })
+        navigate("./posts/" + uid + "#root", { replace: false })
     }
 
     let onBackButtonClick = () => {
-        navigate("../../", { replace: false })
+        navigate("../../#root", { replace: false })
     }
 
     if (card) {
@@ -99,7 +99,7 @@ const Post = ({ card, uid, map }) => {
                 <Row>
                     <Col className = 'FullPostMap col-11 col-md-12'>
                         {
-                            map &&
+                            map && uid2 != 1 &&
                             <MapLayer   mapCenter = { postContentService["post" + uid2].mapInfo.center } 
                                         zoom = { postContentService["post" + uid2].mapInfo.zoom }
                                         markersProps = { postContentService["post" + uid2].mapMarkers }/>

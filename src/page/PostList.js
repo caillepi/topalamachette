@@ -21,12 +21,6 @@ const PostList = () => {
                     <Post card = { true } uid = { 1 } map = { false }/>
                 </Col>
             </Row>
-
-            <Row>
-                <Col className = 'PostListPostPart col-11 col-md-10 col-lg-7'>
-                    <Post card = { true } uid = { 2 } map = { false } />
-                </Col>
-            </Row>
         </Container>
     );
 };
